@@ -1,8 +1,8 @@
-# Template for the Homebrew cask. The release workflow replaces 0.1.0 and 8a073ff18ad06a976cb74c4aec55cefaf3e2eb5f88551318ab0e130a27448945
+# Template for the Homebrew cask. The release workflow replaces 0.1.1 and 8379f8a0e91eaabebf729b3660a2ad99d64e6a89de4a8b3e8b564c2323291acc
 # and pushes the result to the tap repository (see docs/releasing.md).
 cask "cubiclings" do
-  version "0.1.0"
-  sha256 "8a073ff18ad06a976cb74c4aec55cefaf3e2eb5f88551318ab0e130a27448945"
+  version "0.1.1"
+  sha256 "8379f8a0e91eaabebf729b3660a2ad99d64e6a89de4a8b3e8b564c2323291acc"
 
   url "https://github.com/muhyal/cubiclings/releases/download/v#{version}/Cubiclings_#{version}_universal.dmg"
   name "Cubiclings"
